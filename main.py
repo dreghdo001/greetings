@@ -1,4 +1,10 @@
 from list import greetings
 
+
+
+st = ""
 for g in greetings:
-    print(g.title() + ":)")
+    st = g + "John" + "\n"
+    print(st)
+
+
